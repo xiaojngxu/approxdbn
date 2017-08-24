@@ -1,6 +1,10 @@
-function model= dbnFitXX(X, y, oldmodel, bitlengths, varargin)
+% Algorithm & Code Development: Xiaojing Xu
+% Principal Architect: Srinjoy Das
+% Support and Consultation: Jonas Wei-ting Chan; Chih-Yin Kan; Xinyu Zhang; Javier Girado
+% Principal Investigator: Professor Ken Kreutz-Delgado
+function model= dbnFit_VP(X, y, oldmodel, bitlengths, varargin)
 %fit a DBN to bianry data in X
-
+%based on code by Andrej Karpathy
 %INPUTS: 
 %X              ... data. should be binary, or in [0,1] interpreted as
 %               ... probabilities

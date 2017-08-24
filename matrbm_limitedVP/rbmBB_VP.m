@@ -1,7 +1,11 @@
-function [model, errors] = rbmBBXX(X, numhid, oldmodel, m, n, varargin)
+% Algorithm & Code Development: Xiaojing Xu
+% Principal Architect: Srinjoy Das
+% Support and Consultation: Jonas Wei-ting Chan; Chih-Yin Kan; Xinyu Zhang; Javier Girado
+% Principal Investigator: Professor Ken Kreutz-Delgado
+function [model, errors] = rbmBB_VP(X, numhid, oldmodel, m, n, varargin)
 %Learn RBM with Bernoulli hidden and visible units
 %This is not meant to be applied to image data
-%code by Andrej Karpathy
+%based on code by Andrej Karpathy
 %based on implementation of Kevin Swersky and Ruslan Salakhutdinov
 
 %INPUTS: 

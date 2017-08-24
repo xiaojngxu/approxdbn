@@ -1,3 +1,7 @@
+% Algorithm & Code Development: Xiaojing Xu
+% Principal Architect: Srinjoy Das
+% Support and Consultation: Jonas Wei-ting Chan; Chih-Yin Kan; Xinyu Zhang; Javier Girado
+% Principal Investigator: Professor Ken Kreutz-Delgado
 function newmodel = VPmodelDBN (model,bitlength)
 % return limit precision model based on bitlength
 newmodel = model;     

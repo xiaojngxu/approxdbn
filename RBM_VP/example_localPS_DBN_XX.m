@@ -1,3 +1,8 @@
+% Algorithm & Code Development: Xiaojing Xu
+% Principal Architect: Srinjoy Das
+% Support and Consultation: Jonas Wei-ting Chan; Chih-Yin Kan; Xinyu Zhang; Javier Girado
+% Principal Investigator: Professor Ken Kreutz-Delgado
+
 % This script compares criticality orders to random orders by approximating
 % different numbers (0 to all) of hidden neurons and compare the accuracy
 % curves 

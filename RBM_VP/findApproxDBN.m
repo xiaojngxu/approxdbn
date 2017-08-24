@@ -1,3 +1,7 @@
+% Algorithm & Code Development: Xiaojing Xu
+% Principal Architect: Srinjoy Das
+% Support and Consultation: Jonas Wei-ting Chan; Chih-Yin Kan; Xinyu Zhang; Javier Girado
+% Principal Investigator: Professor Ken Kreutz-Delgado
 function [ApproxModel, bitlengths,track] = findApproxDBN(modelsfull,minAcc,data,labels,testdata,testlabels,crit)
 %Use RBM to predict discrete label for testdata with limit precision
 %code by Xiaojing Xu

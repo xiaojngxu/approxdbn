@@ -1,7 +1,11 @@
-function [model, errors] = rbmFitXX(X, numhid, y, oldmodel, m, n, l, varargin)
+% Algorithm & Code Development: Xiaojing Xu
+% Principal Architect: Srinjoy Das
+% Support and Consultation: Jonas Wei-ting Chan; Chih-Yin Kan; Xinyu Zhang; Javier Girado
+% Principal Investigator: Professor Ken Kreutz-Delgado
+function [model, errors] = rbmFit_VP(X, numhid, y, oldmodel, m, n, l, varargin)
 %Fit an RBM to discrete labels in y
 %This is not meant to be applied to image data
-%code by Andrej Karpathy
+%based on code by Andrej Karpathy
 %based on implementation of Kevin Swersky and Ruslan Salakhutdinov
 
 %INPUTS: 

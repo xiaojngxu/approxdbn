@@ -1,3 +1,7 @@
+% Algorithm & Code Development: Xiaojing Xu
+% Principal Architect: Srinjoy Das
+% Support and Consultation: Jonas Wei-ting Chan; Chih-Yin Kan; Xinyu Zhang; Javier Girado
+% Principal Investigator: Professor Ken Kreutz-Delgado
 %% load full MNIST dataset
 data = loadMNISTImages('train-images-idx3-ubyte');
 labels = loadMNISTLabels('train-labels-idx1-ubyte');
